@@ -1,0 +1,131 @@
+body{
+    background: url(/pics/pexels.jpg);
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+ img{
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin:  5px 5px;
+  
+} 
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 300px;
+  
+}
+ul{
+   margin: 0;
+   padding: 0;
+   position: relative;
+   left: 25%;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+ul li {
+    list-style-type: none;
+    width: 100px;
+    height: 40px;
+    float: left;
+    background: cornflowerblue;
+    text-align: center;
+    line-height: 40px;
+    /* margin: 2px; */
+}
+ul li a:hover {
+    color: orange;
+    opacity: .8;
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+  
+}
+.box{
+    width: 400px;
+    height: 200px;
+    
+}
+.one {
+    width: 400px;
+    height: 350px;
+
+} 
+.sub{
+    width: 400px;
+    height: 200px;
+}
+
+h1,h2 {
+    font-size: 20px;
+    text-align: center;
+    color: cornflowerblue;
+    background-position: 20px;
+}
+.box:hover{
+    box-shadow: 5px 2px cyan;
+    transition: all 2s linear;
+    animation: move 2s infinite;
+}
+.one:hover{
+    box-shadow: 5px 2px red;
+    transition: all 2s linear;
+    animation: move 2s infinite;
+}
+.sub:hover{
+    box-shadow: 5px 2px blueviolet;
+    transition: all 2s linear;
+    animation: move 2s infinite;
+}
+@keyframes move {
+    0% {
+        transform: translateY(100px);
+    }
+}
+
+div.form{
+  display: block;
+  /* text-align: center; */
+  box-shadow: -2px -3px 3px 2px orange;
+  width: 250px;
+  height: 320px ;
+}
+/* this style plaace the form at the center of the page with the help of the padding and margin*/
+.form{
+ padding-left: 100px;
+ padding-right: auto;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+h3{
+    color: blueviolet;
+    padding-top: 2px;
+    align-items: center;
+}
+button{
+    margin-top: 5px;
+    background: cyan;
+    line-height: 20px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 2px orange;
+    opacity: .8;
+}
+
