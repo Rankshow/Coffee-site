@@ -9,19 +9,18 @@ h1{
     color: black; 
 }
 h2{
+    text-align: center;
     color: black;
 }
-div .feat {
-        display: block;
-        box-shadow: -2px -3px 3px 2px orange;
-        width: 250px;
-        height: 400px;
+div.brief {
+    display: block;
+    padding-left: 20px;
 }
-.feat {
-    padding-left: 250px;
-    padding-right: auto;
-    margin-left: auto;
+.brief ol {
+    width: 500px;
+    padding: 10px;
     margin-right: auto;
+    margin-left: auto;
 }
 a{
     text-decoration: none;
@@ -40,4 +39,7 @@ a:hover{
 footer {
     line-height: 500px;
     float: right;
+}
+input {
+    background: red;
 }
