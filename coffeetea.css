@@ -1,0 +1,41 @@
+body{
+    background: url(/pics/pexels-toni-cuenca-585750.jpg) center;
+    /* width: 100vw;
+    height: 100vh; */
+    color:  white;
+}
+h1{
+    text-align: center;
+    color: black; 
+}
+h2{
+    color: black;
+}
+div .feat {
+        display: block;
+        box-shadow: -2px -3px 3px 2px orange;
+        width: 250px;
+        height: 400px;
+}
+.feat {
+    padding-left: 250px;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 3px 3px green;
+    line-height: 100px;
+}
+a:hover{
+    box-shadow: 2px 2px 4px red;
+}
+footer {
+    line-height: 500px;
+    float: right;
+}

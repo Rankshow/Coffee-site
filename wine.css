@@ -1,0 +1,23 @@
+body {
+    background: rgb(126, 126, 201);
+    width: 100vw;
+    height: 100vh;
+    color: gold;
+} 
+
+h1{
+    text-align: center;
+    color: brown;
+}
+p:hover{
+    color: white;
+    box-shadow: 1px 5px 4px gold;
+}
+img {
+    /* border-radius: 20%; */
+    padding-left: 40%;
+}
+span{
+    color: white;
+    text-transform: capitalize;
+}
