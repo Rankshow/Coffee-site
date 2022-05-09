@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(rgba(100,10,0,0.5), rgba(50,10,20,0.3));
+}
+h1{
+    color: gold;
+    text-transform: capitalize;
+    box-shadow: 2px 3px 1px greenyellow;
+    border-radius: 20px;
+    text-align: center;
+    width: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+}
+img {
+    display: block;
+    border-radius: 20%;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+     text-shadow: 6px 3px 4px;
+     margin: 10px;
+     font-size: 25px;
+     font-weight: bold;
+}
+a:hover{
+    box-shadow: 2px 3px 2px gold;
+    padding: 5px;
+    border-radius: 20%;
+}

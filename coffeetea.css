@@ -25,15 +25,17 @@ div .feat {
 }
 a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
     color: black;
     font-weight: bold;
     text-shadow: 1px 3px 3px green;
     line-height: 100px;
+    margin: 20px;
 }
 a:hover{
-    box-shadow: 2px 2px 4px red;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px gold;
 }
 footer {
     line-height: 500px;

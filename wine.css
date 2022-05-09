@@ -1,23 +1,40 @@
 body {
     background: rgb(126, 126, 201);
-    width: 100vw;
-    height: 100vh;
+    /* text-overflow: cover; */
     color: gold;
 } 
 
 h1{
     text-align: center;
     color: brown;
+    text-transform: capitalize;
 }
 p:hover{
     color: white;
     box-shadow: 1px 5px 4px gold;
+    border-radius: 2%;
+    padding: 10px;
 }
 img {
-    /* border-radius: 20%; */
-    padding-left: 40%;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius: 20%;
+   padding-top: 10px;
 }
 span{
     color: white;
     text-transform: capitalize;
+}
+a{
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+a:hover{
+    box-shadow: 2px 3px 3px brown;
+    padding: 5px;
+    border-radius: 20%;
 }
