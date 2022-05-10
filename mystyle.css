@@ -1,8 +1,8 @@
 body{
     background: url(/pics/pexels.jpg);
     background-position: center;
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -11,9 +11,9 @@ body{
  img{
   width: 50px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 20%;
   float: left;
-  margin:  5px 5px;
+  margin-left: 20px;
   
 } 
 .main{
@@ -104,6 +104,7 @@ div.form{
   display: block;
   /* text-align: center; */
   box-shadow: -2px -3px 3px 2px orange;
+
   width: 250px;
   height: 400px;
 }

@@ -1,0 +1,46 @@
+body {
+    background: linen;
+}
+h1 {
+    color: brown;
+    text-align: center;
+    box-sizing: 50px;
+    /* padding: 2px; */
+    box-shadow: 2px 2px 2px ;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 0;
+}
+table{
+    margin: auto;
+    /* border-collapse: collapse; */
+}
+td {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+th{
+    padding: 10px;
+    color: gold;
+    background: grey;
+}
+.la, .ow, .ca, .ab, .ka {
+    font-weight: bold;
+    background: grey;
+    color: white;
+}
+#highprice {
+    background: brown;
+}
+a{
+    text-decoration: none;
+    line-height: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: 2px 3px 2px;
+    padding: 5px;
+    border-radius: 5px;
+}
