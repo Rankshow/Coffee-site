@@ -1,1 +1,1 @@
-#  These are the image of the front view if tyhe webisite
+#  These are the image of the front view of the webisite
